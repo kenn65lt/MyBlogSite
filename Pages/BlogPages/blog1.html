@@ -4,7 +4,7 @@
               <head>
                   <!--Bootstrap  -->
                   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-                  <link rel="stylesheet" href="../pagesTemplate.css">
+                  <link rel="stylesheet" href="../BlogCSS/mainBlog.css">
                      <script
             src="http://code.jquery.com/jquery-3.2.1.slim.js"
             integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg="
@@ -15,8 +15,9 @@
               </head>
               <body>
                   
-                  <!--  -->
-                 
+                  <!-- Navbar brand -->
+                  
+                  </nav>
                   <!--Hamburger  -->
                  
                       <!-- nav-right -->
@@ -30,10 +31,15 @@
                           <!-- nav-right -->
                       <main>
           
-                          <!-- Hamburger lines -->
-                          
-                          <nav>
+                        <nav class="navbar navbar-light bg-faded">
+                            <a class="navbar-brand" href="../../main.html">
+                              <img src="../BlogAssets/KMLogo.png" class="d-inline-block align-top" alt="">
                               
+                            </a>
+                        </nav>
+                          <!-- Hamburger lines -->
+                         
+                          <nav>
                               <div class="nav-right hidden-xs">
                                   <div class="button" id="btn">
                                       <div class="bar top"></div>
@@ -45,6 +51,41 @@
                           </nav>
                                <i class="fa fa-user"></i> 
                           </a>
+                          <!-- <img src="../BlogAssets/IMG_3888.JPG" alt="BlogImage" id="blogImg"> -->
+                          <!-- This is the blog text area -->
+                          <div class="content">
+                              <div class="container">
+                                  <div class="jumbotron"> 
+                                        <h1>Life of a Computer Science Student</h1>
+                                        <div id = "coverImage">
+                                            <img src="../BlogAssets/lifeOfACollegeStudent.jpg" alt="Life of a Computer Science Student">
+                                        </div>
+                                        
+                                        <p>Majoring in computer science is more than just x+y = 3 or var hello = “Hello World” sort of thing.
+                                            It isn’t always all about coding/programming, but you need great persistence and patience to 
+                                            to be successful as a student and an engineer after college. 
+                                            I learned it the hard way. During my freshman year, I thought it is all about programming that it is going to be easy, but it is a very broad field to
+                                            get into that you need to learn more than just programming but you must learn algorithms, computer architecture (hardware stuff), values and issues in computing,
+                                            databases, networking, operating systems, and other interesting subjects that you thought you would never stumble into. Oh yeah and three to four high level math classes such as Calculus 1 & 2 and Linear Algebra
+                                            .</p>
+                                        <br>
+                                        
+                                            <p> My day starts at 6:00 AM, I get off bed, make some coffee, workout for an hour or two, do web development (off-class projects), some more coffee before class, go to class(11:50AM), work-study,
+                                                homework (if there is one coming up), and more programming on my own. I know you might ask me, “Hey Kenn why you have to wake up so early when you do not have class till 12?”, well great question!
+                                                First, I am a morning person. I go to bed late and sleep till the afternoon, but I find myself very unproductive with that kind of scheduling, so I started going to bed early and waking up early and I became more 
+                                                productive that I get a lot of things done during the day. I feel better this way and more motivated. Also, I go to a Christian college that requires us to go to chapel, so I go sometimes but not every time.
+                                                I do not have classes Tuesdays and Thursdays, more time for myself! Or more time to be productive…. I mention a lot about productivity here, my philosophy behind it is that if I get things done, it will eventually pay off
+                                                that I will eventually get a nice portfolio website and a couple of web projects I can showcase which will be very beneficial for me for internship hunting and job hunting after I graduate next year.
+                                                </p>
+                                           <br>
+                                           <p>  I must say that majoring in computer science is tough but very manageable if the person has the right mindset and interest in the field. For me, it is fun learning about many components of computer science,
+                                            not many people can say they know about trees, graphs, and even network protocols. A computer science will deal with many frustrations learning and solving complex problems with regards to computers but once 
+                                            you solve a program/problem it is a wonderful feeling like no other.
+                                            </p><br>
+                                  </div>
+                              </div>
+                           
+                        </div>
                       </main>
           <!-- Item Selection on the Hamburger -->
                           <div class="sidebar">
@@ -55,12 +96,14 @@
                                   <!-- <li class="sidebar-item"><a href="#" class="sidebar-anchor"></a></li> -->
                               </ul>
                           </div>    
-                     </div>
+                     
                   
+                     
+
           
                      
-                  <footer class="site-footer">
-                      <p>Created by: Kennedy Raine Maranion</p>
+                  <footer>
+                      &copy 2018 Kennedy Raine Maranion
                   </footer>
                
                   <!--Javascript  -->
