@@ -20,7 +20,7 @@ body, html {
   position: relative;
   height: 100%; 
   /*Background Image  */
-  background-image: url("Assets/coverBG.JPG");
+  background-image: url("Assets/coverBackground.jpg");
     background-size: cover;
 background-position:center;
     overflow: hidden;
